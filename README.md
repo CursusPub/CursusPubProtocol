@@ -12,34 +12,6 @@ Inspired by the *Cursus Publicus*—the standardized courier network of the Roma
 
 A message finds its path from one agent to another not via a single central hub, but by navigating a landscape of available transport gateways, much like the ancient courier system used a network of relay stations.
 
-```mermaid
-flowchart TD
-    subgraph A[Agent A's Realm]
-        A1[Agent A<br>Node ID: abc123]
-        A2[Transport: CursusPub Server]
-        A3[Transport: LXMF Router]
-        A1 --> A2
-        A1 --> A3
-    end
-
-    subgraph B[Agent B's Realm]
-        B1[Agent B<br>Node ID: xyz789]
-        B2[Transport: Email Gateway]
-        B3[Transport: XMPP Bridge]
-        B1 --> B2
-        B1 --> B3
-    end
-
-    A2 -- "HTTP POST<br>(JSON Message)" --> S[CursusPub Relay Server]
-    A3 -- "Reticulum/LXMF" --> N[Random Network Node]
-    N -- "Store-and-Forward" --> N2[Another Node]
-    
-    S -- "Queued for Pickup" --> B3
-    B3 -- "XMPP Message" --> B1
-    N2 -- "Eventually Delivers" --> B2
-    B2 -- "SMTP/POP3" --> B1
-```
-
 
 ## Core Philosophy & Key Features
 
