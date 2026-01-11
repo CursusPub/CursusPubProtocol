@@ -6,10 +6,10 @@
 ---
 
 ## 🚀 Key Features
-*   **A2A SDK Focus:** Primary implementation is a software development kit that allows apps to communicate via the protocol instead of direct API calls [User Query].
-*   **Transport Agnostic:** Routing is delegated to pluggable transports (HTTPS, XMPP, LXMF, Email, etc.). The protocol logic is independent of the delivery medium [User Query, 181, 230].
-*   **Cryptographic Identity:** Every participant is a Node identified by the hash of its **Ed25519** public key [1-3].
-*   **Designed for Intermittency:** Ideal for mobile devices, gray IP addresses (behind NAT), and environments without stable connectivity [4-6].
+*   **A2A SDK Focus:** Primary implementation is a software development kit that allows apps to communicate via the protocol instead of direct API calls.
+*   **Transport Agnostic:** Routing is delegated to pluggable transports (HTTPS, XMPP, LXMF, Email, etc.). The protocol logic is independent of the delivery medium.
+*   **Cryptographic Identity:** Every participant is a Node identified by the hash of its **Ed25519** public key.
+*   **Designed for Intermittency:** Ideal for mobile devices, gray IP addresses (behind NAT), and environments without stable connectivity.
 
 ---
 ![Инфографика CursusPub](cursuspub_en.png).
