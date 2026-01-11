@@ -12,7 +12,7 @@
 *   **Designed for Intermittency:** Ideal for mobile devices, gray IP addresses (behind NAT), and environments without stable connectivity.
 
 ---
-![Инфографика CursusPub](cursuspub_en.png).
+![Инфографика CursusPub](cursuspub_en.png)
 
 # Протокол CursusPub
 
@@ -27,4 +27,4 @@
 *   **Криптографическая идентификация:** Каждый участник — это Узел (Node), идентифицируемый хешем его открытого ключа **Ed25519**.
 *   **Работа в нестабильных сетях:** Идеально подходит для мобильных устройств, «серых» IP-адресов (за NAT) и условий отсутствия постоянного соединения.
 
-![Инфографика CursusPub](cursuspub_ru.png).
+![Инфографика CursusPub](cursuspub_ru.png)
